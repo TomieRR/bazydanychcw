@@ -1,0 +1,13 @@
+1. Pracownicy (id_pracownika, imie, nazwisko, zarobki)
+2. Stanowisko (id_stanowisko, specyfikacja, usluga)
+3. Klient (id_klient, imie, nazwisko, telefon, samochod, email,id_typ)
+4. Usluga (id_usluga typ_samochodu, cena, czas, nazwa_usluga)
+5. Zlecenie(id_zlecenie, id_klient, id_usluga, data, godzina, cena, stan_zlecenie)
+6. Typ_samochodu (id_typ, nazwa)
+
+Cennik(1, 'osobowy', 160.00, 30,'wymiana opon, alusy')
+Klient(1, 'jan', 'Kowalski', '666 666 666', 'Audi', 'a@a.pl', 'osobowy')
+Stanowisko(1,1,'wolne','osobowe,ciezarowe,autobusy,tramwaje')
+Pracownik(1,'Tomasz',Nowak',10000)
+
+Zlecenie(1,1,1,1, data)

@@ -1,0 +1,9 @@
+1. Wydarzenie (id_wydarzenie, nazwa, miejsce, data, id_kontrahent, id_pracownicy, aktualnosc, id_rozliczenie, id_usluga, id_typ)
+2. Pracownik (id_pracownik, imie, nazwisko, zarobki, id_dzial, Telefon,)
+3. Kontrahent (id_kontrahent, nazwa, Email, Telefon, )
+4. Rozliczenie (id_rozliczenie, typ_platnosc, potwierdzenie_platnosci,
+5. Dzial (id_dzial, dzial)
+6. Usluga (id_usluga, usluga, cena)
+7. Cennik (cena, id_usluga, ) ????
+8. Bilans (id_wydarzenie_id_usluga, Pracownik_zarobki)
+[tabela odczytowa] 7. Typ (id_typ, typ_wydarzenie)
