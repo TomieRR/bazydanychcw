@@ -1,0 +1,10 @@
+MISTRZOSTWA ŚWIATA PIŁKA NOŻNA
+
+1. Drużyna (id, nazwa, data_zalozenia, panstwo, siedziba, sponsor, )
+2. Zawodnicy(id, imie, nazwisko, wiek, narodowość, id_druzyny, , zdobyte_gole, pozycja )
+3. Rezerwowi(id, imie, nazwisko, wiek, narodowość, id_druzyny, )
+4. Trenerzy (id, imie, nazwisko, wiek, narodowość, id_druzyny, )
+5. Sędziowie(id, imie, nazwisko, id_mecze_odbyte )
+6. Stadiony (id, panstwo, miasto, ulica, nazwa_stadion, pojemnosc,)
+7. Mecze odbyte (id, id_druzyna(1),id_drużyna(2), data, wynik, typ_meczu, id_stadiony)
+8. Sztab(id, specyfikacja, imie, nazwisko, wiek, id_druzyna)
